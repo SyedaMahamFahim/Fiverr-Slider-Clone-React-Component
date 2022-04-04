@@ -1,0 +1,148 @@
+.coursecard_section {
+  margin-top: 2rem;
+}
+.coursecard {
+  width: 300px;
+  background: #ffffff;
+  box-shadow: 0px 10px 30px rgb(22 58 95 / 11%);
+  border-radius: 4px;
+  margin: 1rem;
+}
+
+.coursecard_box {
+  padding: 0px 15px;
+}
+
+.coursecard_img_box {
+  width: inherit;
+}
+.coursecard_img_box img{
+  width: inherit;
+}
+.coursecard_img_box span:nth-child(1) {
+  width: 100% !important;
+}
+.coursecard_content_box,
+.coursecard_content {
+  /* width: inherit; */
+  flex-basis: 85%;
+}
+.coursecard_box {
+  margin-top: 1.5rem;
+  display: flex;
+  align-content: center;
+  align-items: flex-start;
+  justify-content: center;
+}
+.coursecard_content {
+  margin: -1.25rem 5px 0px 1rem;
+}
+.coursecard_box img {
+  border-radius: 8px 8px 0px 0px;
+}
+
+.coursecard_content h4 {
+  font-size: 14px;
+  font-family: Nunito;
+
+  color: #404041;
+  margin-bottom: 0px;
+}
+
+.coursecard_contentbox_logo_content {
+  display: flex;
+}
+.coursecard_content_inner {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: -0.5rem;
+}
+.coursecard_content_inner p:nth-child(2) {
+  color: #4ba8dd;
+  background-color: rgba(75, 168, 221, 0.10000000149011612);
+  font-size: 14px;
+  font-family: Nunito;
+  border-radius: 10px;
+  width: fit-content;
+  padding: 2px 15px;
+}
+
+.coursecard_content_inner p span:nth-child(1) {
+  color: #f6921d;
+}
+.coursecard_content_inner p span {
+  font-size: 14px;
+  font-family: Nunito;
+}
+.coursecard_content_inner p span svg:nth-child(1) {
+  vertical-align: bottom;
+  font-size: 18px;
+}
+.coursecard_p {
+  font-size: 15px;
+  font-family: Nunito;
+  line-height: 15px;
+  color: #404041;
+  margin: 15px 0px;
+  padding: 0px 15px;
+}
+.coursecard_icons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: space-between;
+  padding: 0px 15px;
+  border-top: 1px solid #f5f5f5;
+}
+.coursecard_icons p svg:nth-child(1) {
+  color: #ee4035;
+  font-size: 16px;
+  vertical-align: bottom;
+}
+.coursecard_icons_div svg:nth-child(1) {
+  color: #05a69d !important;
+}
+.coursecard_icons p:nth-child(3) {
+  border-radius: 30px;
+  height: 100%;
+  padding: 4px 10px;
+  width: 90px;
+  background-color: #f6921d;
+  font-family: "Nunito";
+  font-style: normal;
+  font-size: 14px;
+  color: #ffffff;
+  text-align: center;
+}
+.coursecard_icons p span {
+  vertical-align: middle;
+}
+.coursecard_icons_div {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  margin: 0px;
+}
+.coursecard_icons_div p {
+  padding: 0px 3px;
+}
+
+.coursecard_icons p p:nth-child(3) {
+  font-size: 40px;
+}
+
+
+
+@media only screen and (max-width: 425px) {
+
+  .coursecard {
+    width: 300px;
+    margin: 0px;
+  }
+
+}

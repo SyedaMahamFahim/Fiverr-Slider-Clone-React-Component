@@ -1,0 +1,131 @@
+.coursecard_section {
+  margin-top: 2rem;
+}
+
+.sectionTitle {
+    margin-right: 1%;
+    border-bottom: 1px solid #e1e1e1;
+    padding-bottom: 1.75rem;
+  }
+  .sectionTitle {
+    height: 24px;
+    display: flex;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: space-between;
+    margin-top: 1.75rem;
+    align-items: center;
+  }
+  .sectionTitle_h1 {
+    text-align: left;
+    vertical-align: top;
+    font-size: 24px;
+    font-family: Nunito;
+    line-height: 24px;
+    color: #404041;
+    font-weight: 700;
+  }
+  .sectionTitle_a {
+    /* text-align: ; */
+    vertical-align: middle;
+    font-size: 14px;
+    font-family: Nunito;
+    line-height: 24px;
+    color: #4682b4;
+    font-weight: bold;
+  }
+  
+  .sectionTitle_a span {
+    font-size: 20px;
+    padding: 10px;
+    vertical-align: bottom;
+  }
+  .left_arrow {
+    left: -70px;
+  }
+  
+  .right_arrow {
+    right: -85px;
+  }
+  
+  .right_arrow svg,
+  .left_arrow svg {
+    position: relative;
+    top: 1.3rem;
+    /* bottom: 50%; */
+    text-align: center;
+    width: 100%;
+    font-size: 20px;
+    margin: auto;
+    color: #f6921d;
+  }
+  .right_arrow,
+  .left_arrow {
+    position: absolute;
+    top: 50%;
+    padding: 0;
+    transform: translate(0, -50%);
+    cursor: pointer;
+    color: transparent;
+    border: none;
+    outline: none;
+    background: transparent;
+    display: block;
+    border-radius: 100%;
+    height: 60px;
+    width: 60px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgb(0 0 0 / 22%) 0px 1px 4px;
+  }
+
+
+  @media only screen and (max-width: 1400px) {
+    .right_arrow {
+      right: -70px;
+    }
+  }
+  @media only screen and (max-width: 425px) {
+    .sectionTitle {
+      margin-top: 7rem;
+    }
+    .right_arrow,
+    .left_arrow {
+      height: 30px;
+      width: 30px;
+    }
+    .right_arrow {
+      right: -12px;
+    }
+    .left_arrow {
+      left: -10px;
+      z-index: 9;
+    }
+    .left_arrow svg,
+    .right_arrow svg {
+      top: 0.3rem;
+    }
+  }
+  @media only screen and (max-width: 989px) {
+    .sectionTitle {
+      margin-top: 5rem;
+    }
+    .left_arrow {
+      left: -21px;
+    }
+    .right_arrow,
+    .left_arrow {
+      height: 30px;
+      width: 30px;
+    }
+    .right_arrow {
+      right: -12px;
+    }
+    .left_arrow {
+      left: -10px;
+      z-index: 9;
+    }
+    .left_arrow svg,
+    .right_arrow svg {
+      top: 0.3rem;
+    }
+  }

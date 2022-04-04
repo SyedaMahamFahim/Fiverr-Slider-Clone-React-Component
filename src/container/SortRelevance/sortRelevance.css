@@ -1,0 +1,26 @@
+.single-selection__sort_box{
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.sort-relevance {
+  height: 24px;
+  display: flex;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: space-between;
+  margin-top: 1.75rem;
+  align-items: center;
+  margin-right: -6px;
+}
+.sort-relevance__p {
+  text-align: left;
+  vertical-align: top;
+  font-size: 14px;
+  font-family: Nunito;
+  line-height: 24px;
+  color: #808184;
+}
