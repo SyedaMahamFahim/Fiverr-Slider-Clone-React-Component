@@ -1,3 +1,4 @@
+
 const TrainingProvidersData = [
     { label: "Youtube", value: "youtube" },
     { label: "Udemy", value: "udemy" },
@@ -6,6 +7,8 @@ const TrainingProvidersData = [
     { label: "Amazon", value: "amazon" ,partner:true },
     { label: "Programming", value: "programming" },
   ];
-  
+
   export default TrainingProvidersData;
+
+
   

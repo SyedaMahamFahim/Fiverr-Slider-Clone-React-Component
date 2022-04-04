@@ -27,3 +27,19 @@
 .multiselect_dropdown div div {
   width: max-content;
 }
+.multiselect_dropdown div div div select{
+    background-color: yellow;
+}
+.partner-label{
+  display: flex;
+}
+.partner-label p:nth-child(2){
+  color: #F6921D;
+ background-color: rgba(246, 146, 29, 0.15);;
+ font-size: 14px;
+ font-family: Nunito;
+ border-radius: 20px;
+ width: fit-content;
+ padding: 2px 15px;
+ margin-left: 15px;
+}
