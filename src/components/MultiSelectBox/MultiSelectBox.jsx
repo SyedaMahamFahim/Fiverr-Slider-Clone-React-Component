@@ -24,7 +24,7 @@ const MultiSelectBox = ({ title, options }) => {
       setTrainingProvidersObj([...removePartnerObj, partnerObj]);
       
     }
-  }, []);
+  }, [options,title]);
 
   return (
     <>

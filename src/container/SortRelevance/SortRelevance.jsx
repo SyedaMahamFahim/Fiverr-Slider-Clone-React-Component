@@ -10,7 +10,7 @@ const SortRelevance = () => {
           <p>15,1533 Learning Resources Available</p>
         </div>
         <div className="sort-relevance__selection">
-          <SingleSelectionBox defaultValue={"Relevance"} data={SortByData} />
+          <SingleSelectionBox data={SortByData} />
         </div>
       </div>
     </>
