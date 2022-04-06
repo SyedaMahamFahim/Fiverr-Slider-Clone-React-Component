@@ -1,14 +1,26 @@
-import React from "react";
+import React, { useState } from "react";
 import { AiFillStar, AiFillHeart } from "react-icons/ai";
-import { BsClockHistory } from "react-icons/bs";
+import { BsClockHistory, BsFillPlayCircleFill } from "react-icons/bs";
 import "./courseCardBox.css";
 
 const CourseCardBox = ({ val }) => {
+  const [toggleWishList, setToggleWishList] = useState(false)
   return (
     <>
       <div className="coursecard">
         <div className="coursecard_img_box">
           <img src={`/assests/images/${val.bgImg}`} alt={val.title} />
+         
+          <div className="coursecard_play_icon"
+           style={{
+            visibility:`${val.title !=='Data Analysis' && 'hidden'}`
+          }}
+          
+          >
+            <span>
+              <BsFillPlayCircleFill />
+            </span>
+          </div>
         </div>
 
         <div className="coursecard_box">
@@ -21,9 +33,9 @@ const CourseCardBox = ({ val }) => {
 
           <div className="coursecard_content">
             <h4>{val.title}</h4>
-            <div className="coursecard_content_inner">
+            <div className="coursecard_content_inner" >
               <p>
-                <span>
+                <span color="black">
                   <AiFillStar /> 5.0
                 </span>
 
@@ -59,8 +71,10 @@ const CourseCardBox = ({ val }) => {
         </div>
 
         <p className="coursecard_p">Learning resource title - example 1</p>
-        <div className="coursecard_icons">
-          <p>
+        <div className='coursecard_icons'>
+          <p onClick={()=>setToggleWishList(!toggleWishList)} 
+          className={`${toggleWishList ? 'coursecard_icons_red' :'coursecard_icons_grey'}`}
+          >
             <AiFillHeart />
           </p>
           <div className="coursecard_icons_div">
@@ -71,7 +85,7 @@ const CourseCardBox = ({ val }) => {
             <p
               style={{
                 fontSize: "15px",
-                paddingTop:"6px"
+                paddingTop: "6px",
               }}
             >
               3h
