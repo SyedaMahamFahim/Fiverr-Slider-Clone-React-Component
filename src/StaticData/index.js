@@ -6,6 +6,7 @@ import SkillCategoriesData from "./SkillCategoriesData";
 import TrainingProvidersData from "./TrainingProvidersData";
 import SortByData from "./SortByData";
 import SliderData from "./SliderData";
+import ProductOwnersData from './ProductOwnersData'
 export{
     ContentTypesData,
     ContentDurationData,
@@ -14,6 +15,7 @@ export{
     SkillCategoriesData,
     TrainingProvidersData,
     SortByData,
-    SliderData
+    SliderData,
+    ProductOwnersData
 
 }

@@ -8,6 +8,7 @@ import {
   LevelsData,
   SkillCategoriesData,
   TrainingProvidersData,
+  ProductOwnersData
 } from "../../StaticData/index";
 const allMulitiSelectsBox=[
   {
@@ -17,26 +18,31 @@ const allMulitiSelectsBox=[
   },
   {
     id:1,
+    title:"Product Owners",
+    options:ProductOwnersData
+  },
+  {
+    id:2,
     title:"Training Providers",
     options:TrainingProvidersData
   },
   {
-    id:2,
+    id:3,
     title:"Content Duration",
     options:ContentDurationData
   },
   {
-    id:3,
+    id:4,
     title:"Content Types",
     options:ContentTypesData
   },
   {
-    id:4,
+    id:5,
     title:"Levels",
     options:LevelsData
   },
   {
-    id:5,
+    id:6,
     title:"Languages",
     options:LanguagesData
   },
