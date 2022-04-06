@@ -1,8 +1,5 @@
-import React, { useState, useEffect } from "react";
-// import React from "react";
-
+import React, { useState } from "react";
 import "./singleSelectionBox.css";
-// import Select from "react-select";
 import { IoIosArrowDown, IoIosArrowUp } from "react-icons/io";
 const SingleSelectionBox = ({ data }) => {
   const [optionVal, setOptionVal] = useState("Relevance");
