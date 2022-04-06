@@ -4,8 +4,15 @@
   align-content: center;
   justify-content: center;
   align-items: center;
+  width: 200px;
 }
-
+.single-selection__sort_box p {
+  width: 200px;
+}
+.single-selection__sort_box span {
+  width: 200px;
+  color: #404041;
+}
 .single-selection__sort_box select {
   border-radius: 5px;
   height: 36px;
@@ -24,8 +31,26 @@
 .single-selection__sort_box select:focus-visible {
   outline: none;
 }
+.single-selection__sort_box div span svg{
+  vertical-align: middle;
+  margin-left: 5px;
+ 
+}
 
-
+.single-selection__sort_box_select{
+  position: absolute;
+  z-index: 999;
+  background: white;
+  background: #FFFFFF;
+  border: 1px solid #E1E1E1;
+  box-sizing: border-box;
+  border-radius: 5px;
+  padding: 5px 1.75rem;
+  width: 200px;
+}
+.single-selection__sort_box_select p{
+  cursor: pointer;
+}
 @media only screen and (max-width: 1200px) {
   .single-selection__sort_box select{
     margin: 10px;
