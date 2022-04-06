@@ -18,7 +18,7 @@ const SliderData = [
       bgImg: "card3.png",
       title: "Artificical Intelligence",
       logoImg: "logo3.png",
-      level:"Advance"
+      level:"Advanced"
     },
     {
       id: 3,

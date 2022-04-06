@@ -49,7 +49,7 @@ const CourseCardBox = ({ val }) => {
                       ? "#4BA8DD"
                       : val.level === "Beginner"
                       ? "#05a69d"
-                      : val.level === "Advance"
+                      : val.level === "Advanced"
                       ? "#ff8c00"
                       : "#4ba8dd"
                   }`,
@@ -58,7 +58,7 @@ const CourseCardBox = ({ val }) => {
                       ? "rgba(75, 168, 221, 0.1)"
                       : val.level === "Beginner"
                       ? "rgba(5, 166, 157, 0.1)"
-                      : val.level === "Advance"
+                      : val.level === "Advanced"
                       ? "rgba(255, 140, 0, 0.1)"
                       : "#4ba8dd"
                   }`,

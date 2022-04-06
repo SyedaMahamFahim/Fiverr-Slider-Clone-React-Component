@@ -5,6 +5,11 @@ const SingleSelectionBox = ({ data }) => {
   const [optionVal, setOptionVal] = useState("Relevance");
   const [toggle, setToggle] = useState(false);
 
+
+  const setHandler=(label)=>{
+    setToggle(false)
+    setOptionVal(label)
+  }
   return (
     <>
       <div className="single-selection__sort_box">
@@ -32,7 +37,7 @@ const SingleSelectionBox = ({ data }) => {
       {toggle && (
         <div className="single-selection__sort_box_select">
           {data.map((val, index) => (
-            <p key={index} onClick={() => setOptionVal(val.label)}>
+            <p key={index} onClick={()=>setHandler(val.label)} >
               {
                 optionVal === val.label && <span>
                 <>&#10004; &nbsp;</>
